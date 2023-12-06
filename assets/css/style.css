@@ -179,7 +179,7 @@ p{
 }
 
 /* change navbar styling on scroll */
-.header_wrapper .navigation-wrap.scroll-on{
+/* .header_wrapper .navigation-wrap.scroll-on{
     position: fixed;
     background-color: var(--white-color);
     top: 0;
@@ -197,7 +197,7 @@ p{
 }
 .header_wrapper .navigation-wrap.scroll-on .nav-link:hover, .header_wrapper .navigation-wrap.scroll-on .nav-link.nav-link.active{
     color: var(--primary-color);
-}
+} */
 
 /* header section css code end here */
 
@@ -214,7 +214,7 @@ p{
 /* banner section css code end here */
 
 /* our-menu section css code starting here */
-.our-menu .card{
+/* .our-menu .card{
     border: none;
 }
 .our-menu .link_category_product{
@@ -266,7 +266,7 @@ p{
 }
 .our-menu .card:hover .category_title a{
     color: var(--primary-color);
-}
+} */
 
 /* our-menu section css code end here */
 
@@ -479,68 +479,3 @@ p{
 @media (max-width:1070px){
     
 }
-
-@media (max-width:991px){
-    /* custom classes */
-    .text-content{
-        width: 100%;
-    }
-
-    /* navbar css code */
-    .header_wrapper .navigation-wrap .navbar-brand img{
-        height: 3.8125rem;
-    }
-    .header_wrapper .navigation-wrap{
-        text-align: center;
-        background-color: var(--white-color);
-    }
-    .header_wrapper .navigation-wrap .nav-link{
-        line-height: 1.875rem;
-        color: var(--black-color);
-    }
-
-    /* banner css code */
-    .banner_wrapper .top-banner{
-        padding: 9.375rem 0 9.375rem;
-    }
-
-    /* carousel design */
-    .testimonial_wrapper .carousel-caption p{
-        padding: 0;
-    }
-
-    /* footer css code */
-    .footer .social-icon a i{
-        padding: 0 0.75rem;
-    }
-}
-
-@media (max-width:767px){
-    /* custom css code */
-    h1{
-        font-size: 2.8rem;
-    }
-    h2{
-        font-size: 1.3rem;
-        line-height: 28px;
-    }
-
-    /* banner css code */
-    .banner_wrapper .top-banner{
-        padding: 10.375rem 0 9.375rem;
-    }
-
-    /* carousel design */
-    .testimonial_wrapper .carousel-item{
-        padding: 11rem 3.125rem;
-    }
-}
-
-@media (max-width:610px){
-    /* carousel design */
-    .testimonial_wrapper .carousel-item{
-        padding: 13rem 3.125rem;
-    }
-}
-
-/* Responsive CSS code end here */
